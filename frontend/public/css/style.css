@@ -1,0 +1,674 @@
+body {
+    display: flex; 
+    flex-direction: column; 
+    min-height: 100vh;
+    background-color: #f5f5f5;
+  }
+  .navbar {
+    background-color: #384454;
+  }
+  .navbar-brand {
+    color: #D4D3DC !important;
+  }
+  .navbar-nav .nav-link {
+    color: #D4D3DC !important;
+  }
+  .hero-section {
+    background-color: #317AC1;
+    color: #D4D3DC;
+    padding: 60px 0;
+    text-align: center;
+  }
+  .hero-section h1 {
+    font-size: 3.5rem;
+  }
+  .hero-section p {
+    font-size: 1.2rem;
+  }
+  .product-card {
+    margin-bottom: 30px;
+  }
+  .product-card img {
+    height: 200px;
+    object-fit: cover;
+  }
+  .product-card .card-body {
+    text-align: center;
+  }
+  .footer {
+    background-color: #384454;
+    color: #D4D3DC;
+    padding: 8px;
+    text-align: center;
+  }
+  body {
+    display: flex; 
+    flex-direction: column; 
+    min-height: 100vh; 
+    background-color: #f5f5f5;
+  }
+  
+  .navbar {
+    background-color: #384454;
+  }
+  
+  .navbar-brand {
+    color: #D4D3DC !important;
+  }
+  
+  .navbar-nav .nav-link {
+    color: #D4D3DC !important;
+  }
+  
+  .login-section, .registerSection, .resetSection {
+    background-color: #317AC1;
+    color: #D4D3DC;
+    padding: 60px 0;
+    text-align: center;
+  }
+  
+  .login-section h1 {
+    font-size: 2.5rem;
+  }
+  
+  .login-card, .register-card, .reset-card {
+    background-color: #fff;
+    padding: 30px;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  }
+  
+  .form-control {
+    border-radius: 30px;
+  }
+  .form-label, .form-check-label{
+    color: #384454;
+    text-align: left; 
+    display: block; 
+    margin-bottom: 0.5rem; 
+  }
+  .cnnct {
+    color: #000000;
+  }
+  .btn-primary {
+    background-color: #384454;
+    border: none;
+    border-radius: 30px;
+  }
+  
+  .footer {
+    background-color: #384454;
+    color: #D4D3DC;
+    padding: 8px;
+    text-align: center;
+  }
+  
+  .form-link {
+    display: block;
+    margin-top: 15px;
+  }
+  
+  .hidden {
+    display: none;
+  }
+  .dropdown-menu {
+    background-color: #384454;
+    border: none; 
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2); 
+  }
+  
+  .dropdown-item {
+    color: #ffffff; 
+    padding: 10px 15px; 
+  }
+  
+  .dropdown-item:hover {
+    background-color: #465c66; 
+    color: #ffffff; 
+  }
+  
+  .nav-link.dropdown-toggle {
+    position: relative; 
+  }
+  
+  .dropdown-item {
+    font-size: 14px; 
+  }
+  
+  .dropdown-menu {
+    border-radius: 0.5rem; 
+  }
+  
+  .dropdown-item {
+    transition: background-color 0.3s ease; 
+  }
+  html, body {
+    height: 100%; 
+    margin: 0; 
+  }
+  
+  
+  .layout-container {
+    display: flex;
+    flex-direction: column; 
+    min-height: 100vh; 
+  }
+  
+  
+  .content {
+    flex: 1;
+  }
+  
+  footer {
+    background-color: #f8f9fa; 
+    padding: 20px; 
+    text-align: center; 
+  }
+  .loading-message{
+    color: #000000;
+  }
+  .product-card {
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    transition: transform 0.2s;
+  }
+  
+  .product-card:hover {
+    transform: scale(1.05);
+  }
+  
+  .category-section {
+    margin-bottom: 30px;
+  }
+  .product-detail-page {
+    background-color: #f9f9f9; 
+    padding: 20px;
+    border-radius: 8px; 
+  }
+  
+  .product-name {
+    color: #333; 
+    font-size: 1.8rem; 
+  }
+  
+  .product-description {
+    color: #666; 
+  }
+  
+  .loading-message, .error-message {
+    text-align: center;
+    font-size: 1.2rem;
+    color: #d9534f; 
+  }
+  
+  .product-image {
+    border: 1px solid #ddd; 
+    border-radius: 4px; 
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1); 
+  }
+  
+  .button-group {
+    margin-top: 10px; 
+  }
+  .product-image-container {
+    position: relative;
+  }
+  
+  .product-image {
+    transition: transform 0.3s ease;
+  }
+  
+  .product-image:hover {
+    transform: scale(1.05);
+  }
+  
+  @keyframes zoomIn {
+    from {
+      transform: scale(0);
+    }
+    to {
+      transform: scale(1);
+    }
+  }
+  
+  .close {
+    position: absolute;
+    top: 20px;
+    right: 20px;
+    font-size: 30px;
+    color: white;
+    cursor: pointer;
+  }
+  
+  .product-info {
+    padding: 20px;
+  }
+  
+  .quantity-selector {
+    display: flex;
+    align-items: center;
+  }
+  
+  .quantity-btn {
+    padding: 10px;
+  }
+  
+  .product-description-section {
+    border-top: 1px solid #ddd;
+    padding-top: 20px;
+    margin-top: 20px;
+  }
+  
+  .product-card {
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+  }
+  
+  .product-card:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 8px 15px rgba(0, 0, 0, 0.2);
+  }
+  
+  .product-hover:hover {
+    transform: scale(1.05);
+  }
+  .products-page {
+    display: flex;
+    flex-direction: column;
+  }
+  
+  .filters-container {
+    background-color: #f8f9fa;
+    border: 1px solid #e0e0e0;
+    border-radius: 10px;
+    margin-bottom: 20px;
+  }
+  
+  .filters-container h3 {
+    margin-bottom: 20px;
+    font-weight: bold;
+    color: #343a40;
+  }
+  
+  .filter-section h5 {
+    margin-bottom: 10px;
+    font-weight: bold;
+    color: #495057;
+  }
+  
+  .form-check {
+    margin-bottom: 10px;
+  }
+  
+  .product-card {
+    border: none;
+    border-radius: 10px;
+    transition: transform 0.3s, box-shadow 0.3s;
+  }
+  
+  .product-card:hover {
+    transform: scale(1.05);
+    box-shadow: 0 4px 20px rgba(0, 0, 0, 0.15);
+  }
+  
+  .product-card img {
+    border-radius: 10px 10px 0 0;
+    height: 200px; 
+    object-fit: cover; 
+  }
+  
+  .loading-message, .error-message {
+    text-align: center;
+    font-size: 1.5rem;
+    color: #dc3545; 
+  }
+  
+  .breadcrumb {
+    background-color: transparent;
+    padding: 0;
+  }
+  
+  .breadcrumb-item + .breadcrumb-item::before {
+    content: ">";
+  }
+  .cart-page {
+    padding: 20px;
+    background-color: #f9f9f9;
+  }
+  
+  .cart-items {
+    list-style-type: none;
+    padding: 0;
+  }
+  
+  .cart-item {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 10px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    margin-bottom: 10px;
+    background-color: white;
+    transition: transform 0.2s; /* Animation */
+  }
+  
+  .cart-item:hover {
+    transform: scale(1.02); /* Légère augmentation au survol */
+  }
+  
+  .cart-item-image {
+    width: 50px;
+    height: 50px;
+    margin-right: 10px;
+    border-radius: 5px; /* Coins arrondis pour l'image */
+  }
+  
+  .cart-item-details {
+    flex-grow: 1;
+    margin-right: 10px;
+  }
+  
+  .cart-item-name {
+    font-weight: bold;
+  }
+  
+  .cart-item-price {
+    display: block;
+    color: #555;
+  }
+  
+  .cart-item-quantity {
+    display: flex;
+    align-items: center;
+  }
+  
+  .cart-item-quantity button {
+    margin: 0 5px;
+  }
+  
+  .remove-button {
+    background-color: red;
+    color: white;
+    border: none;
+    padding: 5px 10px;
+    border-radius: 3px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+  }
+  
+  .remove-button:hover {
+    background-color: darkred; /* Changement de couleur au survol */
+  }
+  
+  .checkout-button {
+    background-color: green;
+    color: white;
+    border: none;
+    padding: 10px 15px;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+  }
+  
+  .checkout-button:hover {
+    background-color: darkgreen;
+  }
+  
+  .empty-cart {
+    text-align: center;
+    font-size: 1.5em;
+    color: #888;
+  }
+  
+  /* Styles de notification */
+  .toastify {
+    font-family: Arial, sans-serif;
+    background: #333;
+    color: #fff;
+    border-radius: 5px;
+  }
+  .add-product-container {
+    max-width: 600px;
+    margin: auto;
+    padding: 20px;
+    background-color: #f9f9f9;
+    border-radius: 8px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+  }
+  
+  .add-product-title {
+    color: #333;
+    margin-bottom: 20px;
+  }
+  
+  .form-field {
+    margin-bottom: 15px;
+  }
+  
+  .label {
+    display: block; /* Assure que chaque label est en bloc */
+    font-size: 16px; /* Taille de police uniforme */
+    color: #333; /* Couleur uniforme */
+    margin-bottom: 5px; /* Espace entre le label et le champ de saisie */
+    font-weight: bold; /* Gras pour la visibilité */
+  }
+  
+  .input-field {
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    padding: 10px;
+    font-size: 16px;
+    width: 100%; /* Prendre toute la largeur disponible */
+    box-sizing: border-box; /* Inclure la bordure dans la largeur totale */
+  }
+  
+  .input-field:focus {
+    border-color: #007bff;
+    box-shadow: 0 0 5px rgba(0, 123, 255, 0.5);
+  }
+  
+  .image-preview {
+    display: flex;
+    flex-wrap: wrap;
+  }
+  
+  .img-thumbnail {
+    width: 100px;
+    height: 100px;
+    margin-right: 10px;
+    margin-bottom: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+  }
+  
+  .submit-button {
+    margin-top: 20px;
+    font-size: 18px;
+    background-color: #007bff;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    padding: 10px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+  }
+  
+  .submit-button:hover {
+    background-color: #0056b3;
+  }
+  
+  .alert-error {
+    margin-bottom: 20px;
+    color: red;
+  }
+  .remove-button {
+    background-color: red;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    position: absolute;
+    top: 0;
+    right: 0;
+  }
+  
+  .image-container {
+    position: relative;
+    margin-right: 10px;
+    margin-bottom: 10px;
+  }
+  .button-container {
+    display: flex;
+    justify-content: center; /* Centre les boutons horizontalement */
+    margin-top: 20px; /* Espacement supérieur */
+  }
+  
+  .submit-button,
+  .cancel-button {
+    font-size: 18px;
+    border-radius: 5px;
+    padding: 10px 15px;
+    margin: 0 10px; /* Espacement entre les boutons */
+  }
+  
+  .submit-button {
+    background-color: #007bff;
+    color: white;
+    border: none;
+    transition: background-color 0.3s ease;
+  }
+  
+  .submit-button:hover {
+    background-color: #0056b3;
+  }
+  
+  .cancel-button {
+    background-color: #dc3545; /* Couleur rouge pour le bouton Annuler */
+    color: white;
+    border: none;
+    transition: background-color 0.3s ease;
+  }
+  
+  .cancel-button:hover {
+    background-color: #c82333; /* Couleur rouge plus foncé au survol */
+  }
+  .cart-page {
+    background-color: #f9f9f9;
+    border-radius: 10px;
+    padding: 20px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+  }
+  
+  .cart-page h2 {
+    font-size: 2rem;
+    color: #333;
+  }
+  
+  .list-group-item {
+    transition: transform 0.2s;
+  }
+  
+  .list-group-item:hover {
+    transform: scale(1.02);
+  }
+  
+  .btn-danger {
+    transition: background-color 0.3s, border-color 0.3s;
+  }
+  
+  .btn-danger:hover {
+    background-color: #dc3545;
+    border-color: #c82333;
+  }
+  .add-product-container {
+    background-color: #f8f9fa;
+    border-radius: 8px;
+    padding: 2rem;
+    box-shadow: 0px 4px 12px rgba(0, 0, 0, 0.1);
+  }
+  
+  .add-product-title {
+    font-size: 2rem;
+    color: #333;
+    margin-bottom: 2rem;
+  }
+  
+  .add-product-form {
+    display: flex;
+    flex-direction: column;
+  }
+  
+  .form-grid {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 2rem;
+  }
+  
+  .form-field {
+    display: flex;
+    flex-direction: column;
+  }
+  
+  .label {
+    margin-bottom: 0.5rem;
+    font-size: 1rem;
+    color: #555;
+  }
+  
+  .input-field {
+    padding: 0.75rem;
+    font-size: 1rem;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+  }
+  
+  .btn-submit, .btn-cancel {
+    padding: 0.75rem 1.5rem;
+    border: none;
+    border-radius: 4px;
+    font-size: 1rem;
+    cursor: pointer;
+    margin-top: 2rem;
+  }
+  
+  .btn-submit {
+    background-color: #007bff;
+    color: white;
+  }
+  
+  .btn-cancel {
+    background-color: #6c757d;
+    color: white;
+    margin-left: 1rem;
+  }
+  
+  .uploaded-images {
+    display: flex;
+    flex-wrap: wrap;
+    margin-top: 1rem;
+  }
+  
+  .uploaded-image {
+    position: relative;
+    margin-right: 1rem;
+  }
+  
+  .uploaded-image img {
+    width: 100px;
+    height: 100px;
+    object-fit: cover;
+    border-radius: 4px;
+  }
+  
+  .uploaded-image button {
+    position: absolute;
+    top: 0;
+    right: 0;
+    background-color: #dc3545;
+    color: white;
+    border: none;
+    border-radius: 4px;
+    padding: 0.25rem 0.5rem;
+    cursor: pointer;
+  }
+  
