@@ -1,19 +1,19 @@
 # 🛍️ SoukNet
 
-SoukNet est une application web e-commerce moderne construite avec **React (frontend)**, **Node.js/Express (backend)** et intégrée avec **Firebase** et **Azure Functions** pour la gestion et le déploiement.
+SoukNet is a modern e-commerce web application built with **React (frontend)**, **Node.js/Express (backend)**, and integrated with **Firebase** and **Azure Functions** for management and deployment.
 
-## 🚀 Fonctionnalités
+## 🚀 Features
 
-- ✅ Interface utilisateur moderne et responsive (React)
-- ✅ Gestion des catégories et produits
-- ✅ API backend avec Express.js
-- ✅ Envoi d'e-mails et gestion Firebase
-- ✅ Déploiement via Firebase Hosting et Azure Functions
-- ✅ Configuration CI/CD avec GitHub Actions
+- ✅ Modern and responsive UI (React)  
+- ✅ Category and product management  
+- ✅ Backend API with Express.js  
+- ✅ Email sending and Firebase integration  
+- ✅ Deployment via Firebase Hosting and Azure Functions  
+- ✅ CI/CD configuration with GitHub Actions  
 
 ---
 
-## 📂 Structure du projet
+## 📂 Project Structure
 
 ```
 SoukNet-main/
@@ -30,15 +30,15 @@ SoukNet-main/
 
 ---
 
-## ⚙️ Installation & Lancement
+## ⚙️ Installation & Run
 
-### 1️⃣ Cloner le projet
+### 1️⃣ Clone the project
 ```bash
 git clone https://github.com/username/SoukNet.git
 cd SoukNet-main
 ```
 
-### 2️⃣ Installer les dépendances
+### 2️⃣ Install dependencies
 #### Frontend
 ```bash
 cd frontend
@@ -51,53 +51,53 @@ cd backend
 npm install
 ```
 
-### 3️⃣ Lancer en développement
+### 3️⃣ Run in development
 #### Frontend (React)
 ```bash
 npm start
 ```
-Accessible sur [http://localhost:3000](http://localhost:3000)
+Available at [http://localhost:3000](http://localhost:3000)
 
 #### Backend (Express)
 ```bash
 node server.js
 ```
-Accessible sur [http://localhost:5000](http://localhost:5000)
+Available at [http://localhost:5000](http://localhost:5000)
 
 ---
 
-## 🌐 Déploiement
+## 🌐 Deployment
 
 ### Firebase Hosting
-- Le frontend est déployé avec **Firebase Hosting**  
-- Configurations dans `firebase.json`
+- The frontend is deployed with **Firebase Hosting**  
+- Configurations in `firebase.json`
 
 ### Azure Functions
-- Le backend est déployé via **Azure Functions**  
-- Fichiers dans `/backend/azure`
+- The backend is deployed via **Azure Functions**  
+- Files located in `/backend/azure`
 
 ### GitHub Actions
-- CI/CD automatisé avec workflows dans `.github/workflows`
+- Automated CI/CD with workflows in `.github/workflows`
 
 ---
 
-## 🛠️ Technologies Utilisées
+## 🛠️ Technologies Used
 
-- **Frontend** : React, JSX, CSS
-- **Backend** : Node.js, Express.js
-- **Base de données** : Firebase
-- **Cloud Functions** : Azure Functions
-- **Outils** : GitHub Actions, Firebase CLI
-
----
-
-## 👨‍💻 Auteur
-
-Projet développé par **Houssem LANGAR**  
-📧 Contact : houssemlangar3@gmail.com
+- **Frontend**: React, JSX, CSS  
+- **Backend**: Node.js, Express.js  
+- **Database**: Firebase  
+- **Cloud Functions**: Azure Functions  
+- **Tools**: GitHub Actions, Firebase CLI  
 
 ---
 
-## 📜 Licence
+## 👨‍💻 Author
 
-Ce projet est sous licence **MIT** – libre à l’utilisation et modification.
+Project developed by **Houssem LANGAR**  
+📧 Contact: houssemlangar3@gmail.com  
+
+---
+
+## 📜 License
+
+This project is licensed under the **MIT License** – free to use and modify.  
